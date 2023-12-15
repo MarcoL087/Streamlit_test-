@@ -1,8 +1,6 @@
 import streamlit as st
 import pandas as pd
-import seaborn as sns
 import plotly.express as px
-import matplotlib.pyplot as plt
 from PIL import Image
 
 # uploading the dataframe
@@ -31,7 +29,7 @@ img = Image.open('img_cars1.jpg')
 st.image(img)
 
 # setting the title
-st.title('Hello Wilders, welcome to my application!')
+st.title('Hello Wilders, welcome to my analysis test!')
 st.markdown("##")
 
 # setting database description
